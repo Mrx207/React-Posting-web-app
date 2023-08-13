@@ -2,7 +2,6 @@ import React from "react";
 import classes from "../styles/Post.module.css";
 
 export default function Post({ author, body }) {
-  console.log(author);
   return (
     <div>
       <li className={classes.post}>
